@@ -1,5 +1,4 @@
-# showDialog
-Простое модальное окно для обозревателя.
+# Простое модальное окно для обозревателя.
 
 Разбор по шагам  
 
@@ -21,7 +20,7 @@ showDialog({
     message: 'Hello',
 });
 ```
-<img src="https://media.discordapp.net/attachments/668839640693997578/769860938043097118/unknown.png">
+<img src="./1_1.png">
 
 ```js
 showDialog({
