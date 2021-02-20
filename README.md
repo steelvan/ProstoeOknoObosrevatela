@@ -17,18 +17,11 @@ buttons — кнопки
 
 ```js
 showDialog({
-    message: 'Hello',
-});
+    title: 'Сообщение', 
+    message: "Hello world"
 ```
 <img src="./1_1.png">
 
-```js
-showDialog({
-    title: 'hi', 
-    message: 'Hello'
-})
-```
-<img src="https://media.discordapp.net/attachments/668839640693997578/769863098851917824/unknown.png">
 
 ### message
 
@@ -48,6 +41,9 @@ showDialog({
 })
 ```
 
+<img src="./1_2.png">
+
+
 Пример message - тип обещание  
 
 ```js
@@ -56,6 +52,9 @@ showDialog({
     message: fetch('https://jsonplaceholder.typicode.com/todos/1')
 })
 ```
+
+<img src="./1_3.gif">
+
 
 ### buttons
 
@@ -84,8 +83,7 @@ showDialog({
     }
 })
 ```
-<img src="https://media.discordapp.net/attachments/668839640693997578/769867206979747850/unknown.png">
-<img src="https://media.discordapp.net/attachments/668839640693997578/769867511511777300/unknown.png">
+<img src="./1_4.gif">
 
 При клике на [Вход] в консоли видим сообщение с данными которые мы ввели
 при этом ключи это те самые "name" которые указали
@@ -106,6 +104,8 @@ showDialog({
 })
 ```
 
+<img src="./1_5.png">
+
 теперь добавим кнопку [Это не мое имя] при клике на эту кнопку выведем input где можно будет указать свое имя. Для этого можно воспользоваться встроенным методом right, для вызова боковой панели
 
 ```js
@@ -124,6 +124,9 @@ showDialog({
         }
     })
 ```
+
+<img src="./1_6.gif">
+
 this.right принимает объект с ключами message и buttons и по умолчанию добавляется кнопка "Сохранить".  
 При нажатии на эту кнопку в data добавляются новые данные и основной шаблон перерисовывается.  
 
@@ -160,4 +163,4 @@ showDialog({
 })
 ```
 
-<img src="https://media.discordapp.net/attachments/668839640693997578/769921673361096755/GIF_25.10.2020_16-51-28.gif">
+<img src="./1.gif">
