@@ -2,6 +2,9 @@
 
 Разбор по шагам  
 
+<a href="./prim_html.html">Установка</a>
+
+
 Шаг 1.  
 В head нужно подключить два файла showDialog.js, showDialog.css  
 Шаг 2.  
